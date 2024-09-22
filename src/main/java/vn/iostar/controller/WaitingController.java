@@ -22,7 +22,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 		if (u.getId() == 1) {
 			resp.sendRedirect(req.getContextPath() + "/view/admin_home.html");
 		} else {
-			resp.sendRedirect(req.getContextPath() + "/view/home.html");
+			resp.sendRedirect(req.getContextPath() + "/view/topbar.jsp");
 		}
 	} else {
 		resp.sendRedirect(req.getContextPath() + "/home");

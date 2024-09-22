@@ -89,11 +89,7 @@ p {
 </style>
 </head>
 <body>
-
 	<form action="/forgetPW_logout/register" method="POST">
-		<img
-			src="https://hcmute.edu.vn/Resources/Images/Logo/Logo%20HCMUTE-Corel-white%20background.jpg"
-			alt="Logo">
 		<h2>Đăng kí tài khoản</h2>
 		<c:if test="${alert !=null}">
 			<h3 class="alert">${alert}</h3>
