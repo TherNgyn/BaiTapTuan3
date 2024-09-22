@@ -29,12 +29,25 @@
                       <div class="col-lg-8 col-md-offset-4 padding-left-0">
                         <a href="forgetPW.jsp">Quên mật khẩu?</a>
                       </div>
+                      
                     </div>
+                    
                     <div class="row">
                       <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-20">
                         <button type="submit" class="btn btn-primary">Đăng nhập</button>
                       </div>
                     </div>
+                    <div class="row">
+                    <hr>
+                        <div class="login-socio">
+                        <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-10 padding-right-30">
+									<p class="text-muted">
+										Nếu bạn chưa có tài khoản trên hệ thống, thì hãy <br> <a
+											href="register.jsp">Đăng ký</a>
+									</p>
+								</div>
+								</div>
+								</div>
                     <div class="row">
                       <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-10 padding-right-30">
                         <hr>
@@ -47,13 +60,8 @@
                                 <li><a href="#" data-original-title="Linkedin" class="linkedin" title="LinkedIn"></a></li>
                             </ul>
                         </div>
-                        
-                    <div>
-            <p>Nếu bạn chưa có tài khoản trên hệ thống, thì hãy <br>
-            <a href="register.jsp">Đăng ký</a></p>
-        </div>
-                  
-                      </div>
+
+							</div>
                     </div>
                   </form>
                 </div>
