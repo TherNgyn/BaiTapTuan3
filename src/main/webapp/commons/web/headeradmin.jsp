@@ -34,8 +34,8 @@
 					<li><a href="shop-account.html">My Account</a></li>
 					<li><a href="shop-wishlist.html">My Wishlist</a></li>
 					<li><a href="shop-checkout.html">Checkout</a></li>
-					<li><a href="${pageContext.request.contextPath }/view/login.jsp">Đăng
-						nhập</a> | <a href="${pageContext.request.contextPath }/view/register.jsp">Đăng
+					<li><a href="${pageContext.request.contextPath }/logout">Đăng
+						xuất</a> | <a href="${pageContext.request.contextPath }/view/register.jsp">Đăng
 						ký</a></li>							
 			</ul>
 			</div>

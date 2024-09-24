@@ -76,7 +76,7 @@
     <!-- END BEGIN STYLE CUSTOMIZER --> 
     
     <!-- BEGIN HEADER -->
-    <%@ include file = "/commons/web/header.jsp" %>
+    <%@ include file = "/commons/web/headeradmin.jsp" %>
     <!-- END HEADER -->
     
     <div class="main"> 
