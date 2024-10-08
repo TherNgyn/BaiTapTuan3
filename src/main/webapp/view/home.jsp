@@ -499,4 +499,12 @@
 	</div>
 	<!-- END PROMO -->
 </div>
+<<<<<<< HEAD
 <!-- END TWO PRODUCTS & PROMO -->
+=======
+<<<<<<< HEAD
+<!-- END TWO PRODUCTS & PROMO -->
+=======
+<!-- END TWO PRODUCTS & PROMO -->
+>>>>>>> branch1
+>>>>>>> 7ae54b1f285320bed000798d8eb466383b2c6b68

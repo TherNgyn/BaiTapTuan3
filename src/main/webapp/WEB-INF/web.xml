@@ -16,4 +16,10 @@
         <filter-name>sitemesh</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+<<<<<<< HEAD
+=======
+    <session-config>
+		<tracking-mode>COOKIE</tracking-mode>
+	</session-config>
+>>>>>>> 7ae54b1f285320bed000798d8eb466383b2c6b68
 </web-app>
