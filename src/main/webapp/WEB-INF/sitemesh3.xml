@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemesh>
   <mapping path="/*" decorator="web.jsp"/>
-<<<<<<< HEAD
   <mapping path="/view/homeadmin.jsp" decorator="admin.jsp"/>
-=======
   <mapping path="/admin/*" decorator="admin.jsp"/>
->>>>>>> 7ae54b1f285320bed000798d8eb466383b2c6b68
   <mapping path="/view/homeuser.jsp" decorator="user.jsp"/>
   <mapping path="/api*" exclude="true"/>  
 </sitemesh>

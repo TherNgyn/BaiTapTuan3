@@ -7,11 +7,9 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-<<<<<<< HEAD
-=======
 import com.mysql.cj.jdbc.DatabaseMetaData;
 
->>>>>>> 7ae54b1f285320bed000798d8eb466383b2c6b68
+
 public class DBConnection {
 	private static Connection con = null;
 	private static String USERNAME = "root";

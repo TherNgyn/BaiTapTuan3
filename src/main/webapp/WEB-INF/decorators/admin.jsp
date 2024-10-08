@@ -82,8 +82,7 @@
     <div class="main"> 
         <div class="container">
              <sitemesh:write property="body"/>
-<<<<<<< HEAD
-=======
+
              <script type="text/javascript"
              src="${URL}assets/global/plugins/jquery.min.js" >
              <script>
@@ -100,7 +99,6 @@
                  }
              }
          </script>
->>>>>>> 7ae54b1f285320bed000798d8eb466383b2c6b68
         </div>
     </div>
     
