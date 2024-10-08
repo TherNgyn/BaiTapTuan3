@@ -40,7 +40,7 @@
         
         
         
-        <property name="java-output-path" value="/login_register/target/classes"/>
+        <property name="java-output-path" value="/forgetPW_logout/target/classes"/>
                         
         
         <property name="context-root" value="forgetPW_logout"/>
