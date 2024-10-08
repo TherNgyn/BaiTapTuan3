@@ -20,7 +20,8 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 		User u = (User) session.getAttribute("account");
 		req.setAttribute("username", u.getName());
 		if (u.getId() == 1) {
-			resp.sendRedirect(req.getContextPath() + "/view/homeadmin.jsp");
+
+			resp.sendRedirect(req.getContextPath() + "/admin/categories");
 		} else {
 			resp.sendRedirect(req.getContextPath() + "/view/homeuser.jsp");
 		}

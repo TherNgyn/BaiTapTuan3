@@ -82,6 +82,23 @@
     <div class="main"> 
         <div class="container">
              <sitemesh:write property="body"/>
+
+             <script type="text/javascript"
+             src="${URL}assets/global/plugins/jquery.min.js" >
+             <script>
+             function chooseFile(fileInput) {
+                 if (fileInput.files && fileInput.files[0]) {
+                     var reader = new FileReader();
+
+                     reader.onload = function (e) {
+                         $('#images').attr('src', e.target.result);
+                         $('#images').show(); // Hiển thị hình ảnh sau khi đặt src
+                     };
+
+                     reader.readAsDataURL(fileInput.files[0]);
+                 }
+             }
+         </script>
         </div>
     </div>
     
