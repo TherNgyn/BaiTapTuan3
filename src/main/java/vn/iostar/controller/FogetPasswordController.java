@@ -2,18 +2,11 @@ package vn.iostar.controller;
 
 import java.io.IOException;
 
-
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
-import vn.iostar.dao.UserDao;
-import vn.iostar.dao.UserDaoImpl;
-import vn.iostar.model.User;
-import vn.iostar.utils.Constant;
 import vn.iostar.service.UserService;
 import vn.iostar.service.UserServiceImpl;
 @WebServlet(urlPatterns = {"/fogotpassword"})
